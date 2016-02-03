@@ -22,12 +22,12 @@
                     <field name="OP">ADD</field>
                     <value name="A">
                       <block type="math_number" id="84">
-                        <field name="NUM">1273</field>
+                        <field name="NUM">1</field>
                       </block>
                     </value>
                     <value name="B">
                       <block type="math_number" id="83">
-                        <field name="NUM">10203</field>
+                        <field name="NUM">1</field>
                       </block>
                     </value>
                   </block>
