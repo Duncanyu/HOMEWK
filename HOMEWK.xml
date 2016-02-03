@@ -36,8 +36,22 @@
                   <block type="oled_drawtext" id="93">
                     <field name="TEXT">   FALSE!</field>
                     <next>
-                      <block type="oled_drawtext" id="102">
-                        <field name="TEXT">  I'm dumb</field>
+                      <block type="oled_setcursor" id="120" inline="true">
+                        <value name="STARTX">
+                          <block type="math_number" id="127">
+                            <field name="NUM">30</field>
+                          </block>
+                        </value>
+                        <value name="STARTY">
+                          <block type="math_number" id="128">
+                            <field name="NUM">10</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="oled_drawtext" id="102">
+                            <field name="TEXT">  I'm dumb</field>
+                          </block>
+                        </next>
                       </block>
                     </next>
                   </block>
