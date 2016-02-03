@@ -34,7 +34,12 @@
                 </value>
                 <next>
                   <block type="oled_drawtext" id="93">
-                    <field name="TEXT">FALSE!</field>
+                    <field name="TEXT">   FALSE!</field>
+                    <next>
+                      <block type="oled_drawtext" id="102">
+                        <field name="TEXT">  I'm dumb</field>
+                      </block>
+                    </next>
                   </block>
                 </next>
               </block>
