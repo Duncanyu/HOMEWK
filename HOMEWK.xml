@@ -33,23 +33,37 @@
                   </block>
                 </value>
                 <next>
-                  <block type="oled_drawtext" id="10">
-                    <field name="TEXT">   FALSE!</field>
+                  <block type="oled_setcursor" id="15" inline="true">
+                    <value name="STARTX">
+                      <block type="math_number" id="16">
+                        <field name="NUM">10</field>
+                      </block>
+                    </value>
+                    <value name="STARTY">
+                      <block type="math_number" id="17">
+                        <field name="NUM">20</field>
+                      </block>
+                    </value>
                     <next>
-                      <block type="oled_setcursor" id="11" inline="true">
-                        <value name="STARTX">
-                          <block type="math_number" id="12">
-                            <field name="NUM">30</field>
-                          </block>
-                        </value>
-                        <value name="STARTY">
-                          <block type="math_number" id="13">
-                            <field name="NUM">10</field>
-                          </block>
-                        </value>
+                      <block type="oled_drawtext" id="10">
+                        <field name="TEXT">   FALSE!</field>
                         <next>
-                          <block type="oled_drawtext" id="14">
-                            <field name="TEXT">  I'm dumb</field>
+                          <block type="oled_setcursor" id="11" inline="true">
+                            <value name="STARTX">
+                              <block type="math_number" id="12">
+                                <field name="NUM">30</field>
+                              </block>
+                            </value>
+                            <value name="STARTY">
+                              <block type="math_number" id="13">
+                                <field name="NUM">10</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="oled_drawtext" id="14">
+                                <field name="TEXT">  I'm dumb</field>
+                              </block>
+                            </next>
                           </block>
                         </next>
                       </block>
