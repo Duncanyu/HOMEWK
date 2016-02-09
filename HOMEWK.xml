@@ -62,6 +62,22 @@
                             <next>
                               <block type="oled_drawtext" id="14">
                                 <field name="TEXT">  I'm dumb</field>
+                                <next>
+                                  <block type="movement_forward" id="45">
+                                    <next>
+                                      <block type="robot_delay" id="48" inline="true">
+                                        <value name="DELAY">
+                                          <block type="math_number" id="55">
+                                            <field name="NUM">5000</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="movement_stop" id="65"></block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
                               </block>
                             </next>
                           </block>
