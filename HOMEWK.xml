@@ -1,54 +1,54 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="9" x="68" y="27">
+  <block type="oled_cleardisplay" id="1" x="68" y="27">
     <next>
-      <block type="oled_setcursor" id="27" inline="true">
+      <block type="oled_setcursor" id="2" inline="true">
         <value name="STARTX">
-          <block type="math_number" id="35">
+          <block type="math_number" id="3">
             <field name="NUM">10</field>
           </block>
         </value>
         <value name="STARTY">
-          <block type="math_number" id="34">
+          <block type="math_number" id="4">
             <field name="NUM">10</field>
           </block>
         </value>
         <next>
-          <block type="oled_drawtext" id="53">
+          <block type="oled_drawtext" id="5">
             <field name="TEXT">11+11=</field>
             <next>
-              <block type="oled_drawnumber" id="68" inline="true">
+              <block type="oled_drawnumber" id="6" inline="true">
                 <value name="NUMBER">
-                  <block type="math_arithmetic" id="75" inline="true">
+                  <block type="math_arithmetic" id="7" inline="true">
                     <field name="OP">ADD</field>
                     <value name="A">
-                      <block type="math_number" id="84">
+                      <block type="math_number" id="8">
                         <field name="NUM">1</field>
                       </block>
                     </value>
                     <value name="B">
-                      <block type="math_number" id="83">
+                      <block type="math_number" id="9">
                         <field name="NUM">1</field>
                       </block>
                     </value>
                   </block>
                 </value>
                 <next>
-                  <block type="oled_drawtext" id="93">
+                  <block type="oled_drawtext" id="10">
                     <field name="TEXT">   FALSE!</field>
                     <next>
-                      <block type="oled_setcursor" id="120" inline="true">
+                      <block type="oled_setcursor" id="11" inline="true">
                         <value name="STARTX">
-                          <block type="math_number" id="127">
+                          <block type="math_number" id="12">
                             <field name="NUM">30</field>
                           </block>
                         </value>
                         <value name="STARTY">
-                          <block type="math_number" id="128">
+                          <block type="math_number" id="13">
                             <field name="NUM">10</field>
                           </block>
                         </value>
                         <next>
-                          <block type="oled_drawtext" id="102">
+                          <block type="oled_drawtext" id="14">
                             <field name="TEXT">  I'm dumb</field>
                           </block>
                         </next>
